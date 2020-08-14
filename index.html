@@ -4,7 +4,138 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>个人博客</title>
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style/css/media-queries.css" />
+<link rel="stylesheet" type="text/css" href="style/js/player/mediaelementplayer.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,700,700italic|Open+Sans+Condensed:300,700' rel="stylesheet" type='text/css'>
+<script type="text/javascript" src="style/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="style/js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="style/js/retina.js"></script>
+<script type="text/javascript" src="style/js/selectnav.js"></script>
+<script type="text/javascript" src="style/js/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="style/js/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="style/js/mediaelement.min.js"></script>
+<script type="text/javascript" src="style/js/mediaelementplayer.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.dcflickr.1.0.js"></script>
+<script type="text/javascript" src="style/js/twitter.min.js"></script>
+<script type="text/javascript">
+	$.backstretch("style/images/bg.jpg");
+</script>
 </head>
 <body class="single">
+<div class="scanlines"></div>
+
+<!-- Begin Header -->
+<div class="header-wrapper opacity">
+	<div class="header">
+		<!-- Begin Logo -->
+		<div class="logo">
+			<a href="index.html">
+				<img src="style/images/logo.png" alt="" />
+			</a>
+		</div>
+		<!-- End Logo -->
+		<!-- Begin Menu -->
+		<div id="menu-wrapper">
+			<div id="menu" class="menu">
+				<ul id="tiny">
+					<li class="active"><a href="index.html">博客</a>	</li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!-- End Menu -->
+	</div>
+</div>
+<!-- End Header -->
+
+<!-- Begin Wrapper -->
+<div class="wrapper">
+	<!-- Begin Intro -->
+	<div class="intro">All my way : just do my work, for my love. </div>
+	<div class="intro">做我所做， 爱我所爱。 </div>
+	<!-- End Intro --> 
+	
+	<!-- Begin Main Image -->
+	<div class="main-image">
+		<div class="outer">
+			<span class="inset"><img src="style/images/start.jpg" alt="" /></span>
+		</div>
+	</div>
+	<!-- End Main Image --> 
+	
+	<!-- Begin Post -->
+	<div class="post format-image box" id="comments"> 
+		<h1 class="title"><a href="startblog.html">开篇（2018-05-27）</a></h1>
+		<p>博客开篇  某个时刻，突然想有个自己名字的域名，于是查询了一下，没有被注册，还有所优惠，就买下了这个域名五年时间。</p>	
+	</div>
+	<!-- End Post --> 	
+	
+	<!-- Begin Post -->
+	<div class="post format-image box" id="comments"> 
+		<h1 class="title"><a href="u_disk_gadget_1.html">便携U盘式嵌入式Linux系统设备（一）（2018-06-05）</a></h1>
+		<p>其实，一直以来我崇尚黑客精神，专而研、研而专。</p>	
+		<p>看韩剧《幽灵》中HADS手中类似U盘的东西（或许就是U盘）</p>	
+	</div>
+	<!-- End Post --> 
+	
+		<!-- Begin Post -->
+	<div class="post format-image box" id="comments"> 
+		<h1 class="title"><a href="u_disk_gadget_2.html">便携U盘式嵌入式Linux系统设备（二）（2018-06-13）</a></h1>
+		<p>Bulk-out实现</p>	
+		<p>有了之前各种尝试和探索的经验，这个做起来比较简单。</p>	
+	</div>
+	<!-- End Post --> 
+    
+    	<!-- Begin Post -->
+	<div class="post format-image box" id="comments"> 
+		<h1 class="title"><a href="uefi.html">UEFI （2019-04-09）</a></h1>
+		<p>BIOS 是个程序， 存储在 BIOS 芯片中， 而现在的新式电脑用的基本都是 UEFI 启动， 早期的过渡电脑用的都是 EFI 启动。</p>	
+		<p>EFI， 是 Extensible Firmware Interface 的词头缩写。</p>	
+        	<p>EFI属于Unified EFI Form 的国际组织，在 2.0 后也遂改称为 UEFI。</p>	
+	</div>
+	<!-- End Post --> 
+    
+    	<!-- Begin Post -->
+	<div class="post format-image box" id="comments"> 
+		<h1 class="title"><a href="winpe.html">WINPE （2019-04-10）</a></h1>
+		<p>这主要是对 Windows 来说的， “win” 瘟嘛。</p>	
+		<p>对应于 Linux 的 Linux Live。</p>	
+        	<p>Windows Preinstallation Environment（Windows PE）</p>	
+	</div>
+	<!-- End Post --> 
+    
+    	<!-- Begin Post -->
+	<div class="post format-image box" id="comments"> 
+		<h1 class="title"><a href="annie.html">ANNIE （2019-04-11）</a></h1>
+		<p>Annie is a fast, simple and clean video downloader built with Go.</p>	
+		<p>https://github.com/iawia002/annie</p>	
+        	<p>https://github.com/iawia002/annie/releases</p>	
+	</div>
+	<!-- End Post -->
+
+	<!-- Begin Post -->
+	<div class="post format-image box" id="comments"> 
+		<h1 class="title"><a href="those_years.html">Those Years（2019-04-12）</a></h1>
+		<p>那些年，留下了，却又在指尖溜走的，记忆</p>
+	</div>
+	<!-- End Post --> 
+
+	<!-- Begin Post -->
+	<div class="post format-image box" id="comments"> 
+		<h1 class="title"><a href="ghidra.html">逆向工程工具 Ghidra（2019-04-15）</a></h1>
+		<p>NSA 正式上线免费逆向工程工具</p>
+	</div>
+	<!-- End Post --> 
+
+</div>	
+<!-- End Comment Wrapper -->
+
+<div class="site-generator-wrapper">
+	<div class="site-generator">Copyright Fuchch 2018. All rights reserved.</div>
+</div>
+<!-- End Footer --> 
+<script type="text/javascript" src="style/js/scripts.js"></script>
 </body>
 </html>
